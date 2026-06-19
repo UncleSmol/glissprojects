@@ -1,0 +1,29 @@
+.page-hero {
+  padding: clamp(4.5rem, 9vw, 7rem) 0 clamp(3.5rem, 7vw, 5rem);
+  background: var(--color-deep-blue);
+  color: var(--color-white);
+}
+
+.page-hero__eyebrow {
+  margin: 0 0 1rem;
+  color: var(--color-orange);
+  font-size: 0.8125rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.page-hero__title {
+  max-width: 12ch;
+  margin: 0;
+  font-size: clamp(2.5rem, 7vw, 5.5rem);
+  line-height: 0.98;
+}
+
+.page-hero__text {
+  max-width: 48rem;
+  margin-top: 1.35rem;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.75;
+}

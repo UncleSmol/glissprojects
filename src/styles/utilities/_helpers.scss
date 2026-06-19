@@ -1,0 +1,13 @@
+@use "@/styles/abstracts/mixins" as *;
+
+.u-container {
+  @include container;
+}
+
+.u-section {
+  @include section-spacing;
+}
+
+.u-visually-hidden {
+  @include visually-hidden;
+}

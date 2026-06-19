@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.glissprojectssa.co.za
+
+# Sitemaps
+Sitemap: https://www.glissprojectssa.co.za/sitemap.xml

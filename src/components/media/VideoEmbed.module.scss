@@ -1,0 +1,26 @@
+.video-embed {
+  display: grid;
+  min-height: 11rem;
+  place-items: center;
+  gap: 0.75rem;
+  border: 1px dashed var(--color-border);
+  border-radius: 0.5rem;
+  background: var(--color-light-background);
+  color: var(--color-navy);
+}
+
+.video-embed__button {
+  display: inline-flex;
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--color-orange);
+  color: var(--color-deep-blue);
+}
+
+.video-embed__label {
+  color: var(--color-text-muted);
+  font-weight: 700;
+}

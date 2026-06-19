@@ -1,0 +1,31 @@
+.hero-carousel {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: var(--color-deep-blue);
+}
+
+.hero-carousel__viewport,
+.hero-carousel__container,
+.hero-carousel__slide {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-carousel__viewport {
+  overflow: hidden;
+}
+
+.hero-carousel__container {
+  display: flex;
+}
+
+.hero-carousel__slide {
+  position: relative;
+  min-width: 100%;
+  flex: 0 0 100%;
+}
+
+.hero-carousel__image {
+  object-fit: cover;
+}

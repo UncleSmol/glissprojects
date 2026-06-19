@@ -1,0 +1,12 @@
+.optimized-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background: var(--color-deep-blue);
+}
+
+.optimized-image__asset {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

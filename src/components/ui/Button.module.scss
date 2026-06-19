@@ -1,0 +1,41 @@
+.button {
+  display: inline-flex;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  padding: 0.75rem 1.1rem;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  font-weight: 800;
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button--primary {
+  background: var(--color-orange);
+  color: var(--color-deep-blue);
+}
+
+.button--secondary {
+  border-color: rgba(255, 255, 255, 0.3);
+  color: var(--color-white);
+}
+
+.button--light {
+  background: var(--color-white);
+  color: var(--color-deep-blue);
+}
+
+.button__label,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+}
