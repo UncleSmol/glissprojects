@@ -94,9 +94,14 @@
   background: var(--color-white);
 }
 
+.home__media-title {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  line-height: 1.05;
+}
+
 .home__profile-panel {
   display: grid;
-  align-content: end;
+  align-content: start;
   min-height: 30rem;
   padding: clamp(1.5rem, 4vw, 2.5rem);
   border-radius: 0.5rem;

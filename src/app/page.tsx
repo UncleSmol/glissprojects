@@ -84,6 +84,7 @@ export default function Home() {
             <SectionHeader
               eyebrow="Company profile"
               title="Established supplier and project partner"
+              titleClassName={styles["home__media-title"]}
               text="The company profile positions Gliss Projects as a services and maintenance business established in 2013 to bridge industrial service and supply gaps."
             />
             <ul className={styles["home__list"]}>

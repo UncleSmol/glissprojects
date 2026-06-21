@@ -23,8 +23,12 @@ export function Footer() {
           ))}
         </nav>
         <div className={styles["footer__contact"]}>
-          <a href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`}>{siteConfig.phone}</a>
-          <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+          <a suppressHydrationWarning href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`}>
+            {siteConfig.phone}
+          </a>
+          <a suppressHydrationWarning href={`mailto:${siteConfig.email}`}>
+            {siteConfig.email}
+          </a>
           <span>{siteConfig.location}</span>
         </div>
       </Container>
