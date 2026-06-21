@@ -1,6 +1,8 @@
+import logo from "@/assets/gliss-projects-logo.png";
 import { Container } from "@/components/layout/Container";
 import { siteConfig } from "@/constants/site";
 import { navigationItems } from "@/data/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import styles from "./Footer.module.scss";
 
@@ -9,7 +11,14 @@ export function Footer() {
     <footer className={styles.footer}>
       <Container className={styles["footer__grid"]}>
         <div>
-          <p className={styles["footer__brand"]}>{siteConfig.name}</p>
+          <Link className={styles["footer__brand"]} href="/" aria-label="Gliss Projects SA home">
+            <Image
+              alt="Gliss Projects"
+              className={styles["footer__logo"]}
+              src={logo}
+              sizes="180px"
+            />
+          </Link>
           <p className={styles["footer__text"]}>
             Mining, industrial supply, maintenance, construction, and project solutions from
             eMalahleni.
